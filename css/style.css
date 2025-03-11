@@ -21,16 +21,104 @@ li {
 }
 
 header {
-  background-color: red;
+  position: fixed;
+  z-index: 5;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #ea7a51;
   color: white;
-  /*position: fixed;*/
 }
 
-.container {
-  max-width: 100%;
+.container-header-menu {
+  max-width: 1000px;
+  margin: 0px auto;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo-boolean {
+  width: 100px;
+}
+
+/* fine header */
+
+.container-principal {
+  width: 1000px;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.card-prima {
+  flex-basis: calc(100% / 3);
+  margin-top: 100px;
+}
+
+.img-container {
+  position: relative;
+  padding: 10px;
+}
+
+.img-principal {
+  display: block;
+}
+
+.img-secondary {
+  display: none;
+}
+
+.img-container:hover .img-principal {
+  display: block;
+}
+
+.heart {
+  position: absolute;
+  background-color: white;
+  color: red;
+  top: 15px;
+  right: 15px;
+}
+
+.sconto {
+  position: absolute;
+  background-color: red;
+  color: white;
+  bottom: 40px;
+  text-align: center;
+}
+
+.type-production {
+  position: absolute;
+  background-color: green;
+  color: white;
+  bottom: 40px;
+  left: 46px;
+  text-align: center;
+}
+.descriction {
+  padding: 10px;
+}
+
+h6 {
+  font-weight: 100;
+}
+
+.prodotto-title {
+  font-weight: 900;
+}
+
+.prince-sconto {
+  color: red;
+}
+
+.original {
+  color: grey;
+  text-decoration: line-through;
 }
 
 footer {
