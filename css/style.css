@@ -22,17 +22,9 @@ li {
 
 /* / regole reset */
 
-header {
-  position: fixed;
-  z-index: 5;
-  top: 0;
-  left: 0;
-  right: 0;
-  background-color: #ea7a51;
-  color: white;
-}
+/* utils */
 
-.container-header-menu {
+.container {
   max-width: 1000px;
   margin: 0px auto;
   display: flex;
@@ -41,22 +33,7 @@ header {
   flex-wrap: wrap;
 }
 
-.logo-boolean {
-  width: 100px;
-}
-
-/* fine header */
-
-.container-principal {
-  width: 1000px;
-  margin: 0px auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-.card-prima {
+.card-prodotto {
   flex-basis: calc(100% / 3);
   margin-top: 100px;
 }
@@ -81,6 +58,26 @@ header {
 .img-container:hover .img-principal {
   display: none;
 }
+
+/* / utils */
+
+header {
+  position: fixed;
+  z-index: 5;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #ea7a51;
+  color: white;
+}
+
+.logo-boolean {
+  width: 100px;
+}
+
+/* fine header */
+
+/* inizio descrizione */
 
 .heart {
   position: absolute;
@@ -133,6 +130,27 @@ h6 {
 
 /* fine main */
 
+/* lavorazione footer */
+
 footer {
-  background-color: burlywood;
+  background-color: black;
+  color: white;
+}
+
+.container.container-footer {
+  border-bottom: 2px solid rgb(255, 255, 255);
+  margin-top: 20px;
+}
+
+.footer-left {
+  margin-top: 20px;
+}
+
+.footer-right {
+  margin-top: 20px;
+}
+
+.search {
+  text-align: end;
+  padding-right: 20px;
 }
