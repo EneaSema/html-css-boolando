@@ -23,6 +23,7 @@ li {
 header {
   background-color: red;
   color: white;
+  /*position: fixed;*/
 }
 
 .container {
@@ -30,10 +31,6 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
-}
-
-ul main {
-  background-color: aquamarine;
 }
 
 footer {
