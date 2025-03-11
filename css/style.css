@@ -20,6 +20,8 @@ li {
   margin: 10px;
 }
 
+/* / regole reset */
+
 header {
   position: fixed;
   z-index: 5;
@@ -72,16 +74,21 @@ header {
   display: none;
 }
 
-.img-container:hover .img-principal {
+.img-container:hover .img-secondary {
   display: block;
+}
+
+.img-container:hover .img-principal {
+  display: none;
 }
 
 .heart {
   position: absolute;
   background-color: white;
   color: red;
-  top: 15px;
-  right: 15px;
+  top: 20px;
+  right: 10px;
+  padding: 10px;
 }
 
 .sconto {
@@ -100,6 +107,9 @@ header {
   left: 46px;
   text-align: center;
 }
+
+/* parte descrizione */
+
 .descriction {
   padding: 10px;
 }
@@ -120,6 +130,8 @@ h6 {
   color: grey;
   text-decoration: line-through;
 }
+
+/* fine main */
 
 footer {
   background-color: burlywood;
